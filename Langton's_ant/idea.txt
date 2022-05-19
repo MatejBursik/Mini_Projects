@@ -1,5 +1,0 @@
-https://www.youtube.com/watch?v=G1EgjgMo48U&list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH&index=125
-https://en.wikipedia.org/wiki/Langton%27s_ant
-
-movingAnt = contains definition with an algorith for changing the position of the ant and the square under it
-draw = contains pygame,variables(grid,ant)
