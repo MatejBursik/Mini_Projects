@@ -1,0 +1,4 @@
+Code that will find the path from top to bottom while getting the largest overall sum.
+It can travel only to the numbers beneth the previous number.
+
+- future idea (graphically draw the triangle and highlight the path)

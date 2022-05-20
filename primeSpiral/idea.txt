@@ -1,0 +1,3 @@
+Creating a spiral out of prime numbers and highlighting the prime numbers
+
+https://en.wikipedia.org/wiki/Ulam_spiral
