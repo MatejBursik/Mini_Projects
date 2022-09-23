@@ -7,4 +7,4 @@ day 25
 
 
 https://adventofcode.com/
--logged in with github
+github
