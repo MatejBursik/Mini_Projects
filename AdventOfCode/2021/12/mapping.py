@@ -33,8 +33,7 @@ for i in allPoints:
     allPoints[i] = allPoints[i][:len(allPoints[i])-1]
     allPoints[i] = allPoints[i].split(",")
 
-print(inData)
-print(allPoints)
+#print(allPoints)
 
 num = 0
 memory = []
@@ -42,7 +41,7 @@ with open("AdventOfCode\\2021\\12\\memory.txt","r") as f:
     for i in f:
         memory.append(i.strip())
 
-#5248 too low & 7500 too high
+#5253 too low & 7500 too high
 
 def solve(Points):
     #making a random path
@@ -58,7 +57,7 @@ def solve(Points):
             if oldPoint.islower():
                 Points.pop(oldPoint)
     except:
-        return print("wrong turn") 
+        return #print("wrong turn")
         
     path += "End"
         
