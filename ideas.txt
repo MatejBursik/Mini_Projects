@@ -1,0 +1,17 @@
+- learn Django (web)
+- learn Kivy (app)
+*- learn c#
+
+https://www.geeksforgeeks.org/python-projects-beginner-to-advanced/
+https://thecleverprogrammer.com/2021/02/14/82-python-projects-with-source-code/
+
+
+
+
+python
+- snake game
+- application that solves rubic cubes for you, you input photos of all the sides of the cube and then it takes you through steps of how to solve it. 
+
+c#
+- clicker game - buying animals and machinary to gather milk, rarer animals produce less milk it costs more, machinery speeds up the process of automatic gathering
+- my version of super mario (infinite level which is created randomly, with increasing difficulty)

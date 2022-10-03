@@ -1,3 +1,4 @@
+*day 12
 day 16
 -day 20
 -day 22
