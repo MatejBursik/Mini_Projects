@@ -41,8 +41,6 @@ with open("AdventOfCode\\2021\\12\\memory.txt","r") as f:
     for i in f:
         memory.append(i.strip())
 
-#5253 too low & 7500 too high
-
 def solve(Points):
     #making a random path
     path = ""
@@ -65,7 +63,7 @@ def solve(Points):
         memory.append(path)
 
 #activation of definition
-while num != 10000000:
+while num != 1000000000:
     Copy = allPoints.copy()
     solve(Copy)
     num += 1
