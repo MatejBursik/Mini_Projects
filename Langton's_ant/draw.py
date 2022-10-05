@@ -16,7 +16,7 @@ pygame.init()
 pygame.font.init()
 
 screen = pygame.display.set_mode([SCREEN_WIDTH, SCREEN_HEIGHT])
-Ant_img = pygame.image.load("Projects\Langton's_ant\Ant_img2.png")
+Ant_img = pygame.image.load("Langton's_ant\\Ant_img2.png")
 Ant_img = pygame.transform.rotate(Ant_img,45);   Ant_img = pygame.transform.scale(Ant_img,(SIZE,SIZE))
 
 clock = pygame.time.Clock()

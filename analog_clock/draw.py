@@ -7,7 +7,7 @@ pygame.init()
 pygame.font.init()
 
 screen = pygame.display.set_mode([SCREEN_WIDTH, SCREEN_HEIGHT])
-img_Clock = pygame.image.load("Projects\\analog_clock\\img_clock.png")
+img_Clock = pygame.image.load("analog_clock\\img_clock.png")
 img_Clock = pygame.transform.scale(img_Clock, (250, 250))
 clock = pygame.time.Clock()
 
