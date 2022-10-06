@@ -4,6 +4,7 @@ At a black square, turn 90° counter-clockwise, flip the color of the square, mo
 Black = 1, White = 0
 orintation of the ant = pos[2] right=+x; up=-y; left=-x; down=+y
 """
+import random
 
 def clockwise(pos):
     if pos[2] == "up":
@@ -83,3 +84,11 @@ def CalcOrientation(prevOrientation,currentOrientation):
             num = 90
     
     return num
+
+
+def RandomGen():
+    zeroORone = random.randint(0,100)
+    if zeroORone == 8:
+        return "1"
+    else:
+        return "0"
