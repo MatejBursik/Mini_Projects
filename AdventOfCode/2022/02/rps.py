@@ -65,4 +65,4 @@ with open("AdventOfCode\\2022\\02\\input.txt") as f:
             points += 2 + 0
 print(points)
 
-#interesting, my result for both parts was the same and was correct
+#interesting, my result for both parts was the same and it was correct
