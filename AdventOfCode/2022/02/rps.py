@@ -64,5 +64,3 @@ with open("AdventOfCode\\2022\\02\\input.txt") as f:
         elif elf == "C" and outcome == "X":
             points += 2 + 0
 print(points)
-
-#interesting, my result for both parts was the same and it was correct
