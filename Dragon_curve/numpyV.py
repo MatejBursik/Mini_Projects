@@ -34,7 +34,8 @@ screen = pygame.display.set_mode((pygame.display.Info().current_w, pygame.displa
 clock = pygame.time.Clock()
 
 running = True
-scale = 5
+scale = 20
+zoom = 1
 # starting points
 first_end = [pygame.display.Info().current_w / (scale*2), pygame.display.Info().current_h / (scale*2)]
 first_pivot = [first_end[0], first_end[1]+1]
@@ -54,14 +55,11 @@ while running:
 
             # window scaling
             if event.key == pygame.K_z: # down
-                scale = round(scale - 0.2,1)
-                if scale > 0:
-                    curve.scale_update(scale)
-                    curve.draw(screen,scale)
-                else:
-                    scale = round(scale + 0.2,1)
+                scale *= 0.9
+                curve.scale_update(scale)
+                curve.draw(screen,scale)
             if event.key == pygame.K_x: # up
-                scale += 1
+                scale *= 1.1
                 curve.scale_update(scale)
                 curve.draw(screen,scale)
 
