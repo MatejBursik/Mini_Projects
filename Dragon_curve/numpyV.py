@@ -21,7 +21,7 @@ class Curve:
 
     # re-centralize based on first_end
     def scale_update(self,window,scale):
-        center = [pygame.display.Info().current_w / (scale*2), pygame.display.Info().current_h / (scale*2)]
+        center = [(pygame.display.Info().current_w/scale)/2, (pygame.display.Info().current_h/scale)/2]
         diff = center - self.points[0]
         self.points += diff
         pygame.draw.rect(screen,(255,255,255), pygame.Rect(0,0,pygame.display.Info().current_w, pygame.display.Info().current_h))
@@ -36,7 +36,7 @@ running = True
 scale = 20
 
 # starting points
-first_end = [pygame.display.Info().current_w / (scale*2), pygame.display.Info().current_h / (scale*2)]
+first_end = [(pygame.display.Info().current_w/scale)/2, (pygame.display.Info().current_h/scale)/2]
 first_pivot = [first_end[0], first_end[1]+1]
 curve = Curve(np.array([first_end,first_pivot]))
 
